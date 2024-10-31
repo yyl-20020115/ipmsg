@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c8a70a8b-7b57-4d7b-97b4-178114070cee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a56fc8c3-ed6d-4ba6-b0eb-6abc39e537f8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{61bda9fe-77f0-4dac-83c1-563ec0e452bc}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blowfish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\histdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipmsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logmng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainwin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miscdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miscfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msgmng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pubkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recvdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\richedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\senddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setupdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\share.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\taskbarui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="src\ipmsg.exe.manifest">
+      <Filter>Source Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ipmsg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\ipmsg.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\resource.hm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="src\blue.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\camera.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\camera.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cameraxp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\col_b.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\col_g.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\col_r.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\col_y.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\cross.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\draw_cur.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\dummypic.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\green.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\ipmsg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\ipmsgrev.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\key.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\MARKERTB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\menu.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\red.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\refresh.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\refresh.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\seal.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\send.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\sep.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\yellow.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
